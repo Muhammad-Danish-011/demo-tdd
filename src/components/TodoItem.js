@@ -19,6 +19,7 @@ const TodoItem = ({ todo, removeHandler, updateTodo }) => (
           {todo.title}
         </label>
       </div>
+      
       <button
         className={styles.closeBtn}
         data-testid={`close-btn-${todo.id}`}
